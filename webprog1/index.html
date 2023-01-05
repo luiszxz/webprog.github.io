@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VINATHLETICS</title>
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="index.html" class="logo">VINATHLETICS</a>
+            <div class="toggleMenu" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Monthly/Daily</a></li>
+                <li><a href="TRAINERS/Trainer.html">Trainers</a></li>
+                <li><a href="FACILITIES/fac.html">Facilities</a></li>
+                
+            </ul>
+        </header>
+        <div class="contant">
+            <div class="contantBx">
+                <h2>Lift heavy today <br>if you want strength tomorrow</h2>
+                <p>‘If you think lifting is dangerous, try being weak. Being weak is dangerous.’
+<br>
+
+— Bret Contreras</p>
+                    <a href="FACILITIES/fac.html">Get Started</a>
+            </div>
+        </div>
+        <ul class="icons">
+            <li><a href="https://www.facebook.com/optimumfitnesshubcaloocan"><img src="facebook.ico" alt="facebook"></a></li>
+            <li><a href="#"><img src="insta1.ico" alt="instagram"></a></li>
+            <li><a href="#"><img src="twit.ico" alt="twitter"></a></li>
+        </ul>
+    </section>
+    <script type="text/javascript">
+    function toggleMenu() {
+        const toggleMenu = document.querySelector('.toggleMenu');
+        const navigation = document.querySelector('.navigation');
+        toggleMenu.classList.toggle('active');
+        navigation.classList.toggle('active');
+    }
+    </script>
+</body>
+
+</html>
